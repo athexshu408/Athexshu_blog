@@ -1,0 +1,76 @@
+.sideform{
+    margin: 20px;
+    padding-bottom: 30px;
+    background-color: #fdfbfb;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    transition: width 0.3s ease;
+}
+.sideformitem{
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+
+.settingsPPimg{
+   
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+    margin-left: 10px;
+    display: flex;
+    margin-bottom: 15px;
+   
+    cursor: pointer;
+ }
+ .settingsPPIcon{
+    align-items: center;
+ }
+
+
+ .sfinput{
+    position: relative;
+    width: 75%;
+    padding-top:  10px;
+    margin-bottom: 10px;
+    border: none;
+    font-size: 15px;
+    outline: none;
+    border-bottom: 1px solid lightcoral;
+    
+ }
+ .sfinput:focus{
+    border: none
+ }
+
+
+ .sideIcon{
+    position: relative;
+
+
+    right: -155px;
+    bottom: 32px;
+    font-size: 20px;
+ }
+
+ .sbtn{
+     padding: 10px;
+     background-color: rgb(232, 149, 149);
+     border-radius: 20px;
+     margin-left: 35px;
+     color: white;
+     border: none;
+     cursor: pointer;
+ }
+ .tbtn{
+    background-color: transparent;
+    font-size: 20px;
+    border: none;
+    padding-top: 7px;
+    padding-left: 7px;
+    cursor: pointer;
+ }

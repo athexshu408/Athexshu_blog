@@ -1,0 +1,5 @@
+.GuestPosts{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
